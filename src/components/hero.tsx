@@ -20,10 +20,10 @@ const Hero = () => {
               A passionate Front-End-Developer creating beautiful and functional web experiences.
             </p>
             <ul className='flex justify-center md:justify-start gap-6 mt-6'>
-              <li className='text-2xl hover:text-[#f65353]'><Link href={"/"}><FaLinkedin/></Link></li>
-              <li className='text-2xl hover:text-[#f65353]'><Link href={"/"}><FaFacebook/></Link></li>
-              <li className='text-2xl hover:text-[#f65353]'><Link href={"/"}><FaGithubSquare/></Link></li>
-              <li className='text-2xl hover:text-[#f65353]'><Link href={"/"}><IoMdMail/></Link></li>
+              <li className='text-2xl hover:text-[#f65353]'><Link href={"https://www.linkedin.com/in/bilal-raza-83086025a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"}><FaLinkedin/></Link></li>
+              <li className='text-2xl hover:text-[#f65353]'><Link href={"https://www.facebook.com/profile.php?id=100027854330341&mibextid=ZbWKwL"}><FaFacebook/></Link></li>
+              <li className='text-2xl hover:text-[#f65353]'><Link href={"https://github.com/bilal-raza12"}><FaGithubSquare/></Link></li>
+              <li className='text-2xl hover:text-[#f65353]'><Link href={"mailto:ibilalra@gmail.com"}><IoMdMail/></Link></li>
 
             </ul>
 

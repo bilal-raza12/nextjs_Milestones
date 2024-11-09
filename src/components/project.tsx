@@ -24,27 +24,7 @@ const project= [
         image: '/images/coffeebliss.jpeg', 
         link:"https://shareable-resume-builder-omega.vercel.app/",
        },
-       {
-        title: 'Coffee Bliss: Coffee shop',
-        description:"A coffe shop website where user can order the coffeee of their choice .",
-        technologies: ['HTML','CSS','Javascript'],
-        image: '/images/coffeebliss.jpeg', 
-        link:"https://shareable-resume-builder-omega.vercel.app/",
-       },
-       {
-        title: 'Coffee Bliss: Coffee shop',
-        description:"A coffe shop website where user can order the coffeee of their choice .",
-        technologies: ['HTML','CSS','Javascript'],
-        image: '/images/coffeebliss.jpeg', 
-        link:"https://shareable-resume-builder-omega.vercel.app/",
-       },
-       {
-        title: 'Coffee Bliss: Coffee shop',
-        description:"A coffe shop website where user can order the coffeee of their choice .",
-        technologies: ['HTML','CSS','Javascript'],
-        image: '/images/coffeebliss.jpeg', 
-        link:"https://shareable-resume-builder-omega.vercel.app/",
-       },
+      
 ]
 const Projects = () => {
   return (
@@ -54,9 +34,9 @@ const Projects = () => {
             {
                 project.map((p) => (
                     <div key={p.title} className=' rounded-lg shadow-lg overflow-hidden transition hover:scale-90 duration-300 p-4 bg-black text-white hover:bg-white hover:text-black'>
-                       <div className='w-full h-[220px]'>
-                           <Image src={p.image} alt={p.title} className='rounded-lg'width={600} height={400}></Image>
-                       </div>
+                       <div className='w-full h-[240px]'>
+                           <Image src={p.image} alt={p.title} className='rounded-lg object-cover h-full w-full' width={600} height={240} ></Image>
+                       </div>                       
                        <div className='p-2'>
                          <h2 className='text-2xl font-bold mb-2 text-[#e23737]'>
                             {p.title}
