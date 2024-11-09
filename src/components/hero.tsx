@@ -1,5 +1,5 @@
 
-import Image from 'next/image'
+import Image from 'next/image';
 import Link from 'next/link';
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
@@ -7,7 +7,7 @@ import { FaFacebook } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 const Hero = () => {
   return (
-    <section className='flex flex-col-reverse md:flex-row items-center justify-between min-h-screen px-8 md:px-24   md:mt-0 bg-black text-white'>
+    <div className='flex flex-col-reverse md:flex-row items-center justify-between min-h-screen px-8 md:px-24   md:mt-0 bg-black text-white'>
         <div className='md:w-[50%] md:mb-9 space-y-6 text-center md:text-left leading-tigh '>
           
             <p className='text-4xl md:text-5xl font-bold leading-tight '>
@@ -38,7 +38,7 @@ const Hero = () => {
                  <Image src={"/images/profilepic.jpeg"} alt="" width={300} height={310} className='md:mr-7  '></Image>
             </div>
         </div>
-    </section>
+    </div>
   )
 }
 

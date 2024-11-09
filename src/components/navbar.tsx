@@ -1,7 +1,5 @@
 "use client";
-import { IoIosMenu } from "react-icons/io";
 import { useState } from "react";
-import { IoMdClose } from "react-icons/io";
 import { FaTimes , FaBars} from "react-icons/fa";
 import Link from "next/link";
 const Navbar = () => {

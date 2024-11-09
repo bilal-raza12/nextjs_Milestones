@@ -1,9 +1,8 @@
-import React from 'react'
+
 import { FaEnvelope, FaGithub } from "react-icons/fa";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { FaGithubSquare } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import Link from 'next/link';
