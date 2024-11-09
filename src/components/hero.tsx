@@ -11,7 +11,7 @@ const Hero = () => {
         <div className='md:w-[50%] md:mb-9 space-y-6 text-center md:text-left leading-tigh '>
           
             <p className='text-4xl md:text-5xl font-bold leading-tight '>
-              Hi I'm
+              Hi I&apos;m
             </p>
             <h1 className='text-5xl md:text-[58px] font-extrabold '>
               Muhammad Bilal Raza
