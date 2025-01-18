@@ -14,14 +14,14 @@ const project= [
         description:"An application to freshen and lighten the mood of the user by generating hilarious and funny jokes.",
         technologies: ['Next.js','React','Tailwind CSS','Typescript'],
         image: '/images/rjg.jpeg', 
-        link:"https://shareable-resume-builder-omega.vercel.app/",
+        link:"https://bilal-random-joke-generator-app.vercel.app/",
        },
        {
         title: 'Coffee Bliss: Coffee shop',
         description:"A coffe shop website where user can order the coffeee of their choice .",
         technologies: ['HTML','CSS','Javascript'],
         image: '/images/coffeebliss.jpeg', 
-        link:"https://shareable-resume-builder-omega.vercel.app/",
+        link:"https://coffee-bliss-xi.vercel.app/",
        },
       
 ]
